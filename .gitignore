@@ -1,0 +1,5 @@
+config.py
+.flaskenv
+app.db
+box/
+.vscode/
