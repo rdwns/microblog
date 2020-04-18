@@ -27,7 +27,7 @@ class User(UserMixin, db.Model):
                                 backref=db.backref('isfollowedby', lazy='dynamic'), lazy='dynamic')
 
     def __repr__(self):
-        return '<User {}>'.format(self.username)
+        return '<{} {} {}>\n'.format(self.id, self.username, self.email)
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
@@ -36,7 +36,7 @@ class User(UserMixin, db.Model):
         return check_password_hash(self.password_hash, password)
 
     def avatar(self, size):
-        digest = md5(b'self.email.lower').hexdigest()
+        digest = md5(self.email.lower().encode('utf-8')).hexdigest()
         return 'https://gravatar.com/avatar/{}?d=retro&s={}'.format(digest, size)
 
     def follow(self, user):
