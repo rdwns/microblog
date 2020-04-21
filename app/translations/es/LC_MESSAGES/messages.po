@@ -1,0 +1,199 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-04-21 16:14+0530\n"
+"PO-Revision-Date: 2020-04-21 16:23+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/forms.py:12 app/routes.py:106 app/templates/login.html:6
+msgid "Sign In"
+msgstr ""
+
+#: app/mail.py:19
+msgid "([Microblog] Password Reset"
+msgstr ""
+
+#: app/routes.py:30
+msgid "Your post is now live!"
+msgstr ""
+
+#: app/routes.py:39 app/templates/base.html:31
+msgid "Home"
+msgstr ""
+
+#: app/routes.py:50 app/templates/base.html:32
+msgid "Explore"
+msgstr ""
+
+#: app/routes.py:66
+msgid "Congratulations, you are now a registered user!"
+msgstr ""
+
+#: app/routes.py:69 app/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: app/routes.py:96
+msgid "Invalid Username or Password!"
+msgstr ""
+
+#: app/routes.py:125
+msgid "Your changes have been saved!"
+msgstr ""
+
+#: app/routes.py:131 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: app/routes.py:140 app/routes.py:159
+#, python-format
+msgid "User %(username)s not found"
+msgstr ""
+
+#: app/routes.py:144
+msgid "The fuck you doing. You cannot follow yourself!"
+msgstr ""
+
+#: app/routes.py:149
+#, python-format
+msgid "You are now following %(username)s"
+msgstr ""
+
+#: app/routes.py:163
+msgid "The fuck you doing. You cannot unfollow yourself!"
+msgstr ""
+
+#: app/routes.py:168
+#, python-format
+msgid "You are not following %(username)s"
+msgstr ""
+
+#: app/routes.py:185
+msgid "Please check your email for instructions to reset your password!"
+msgstr ""
+
+#: app/routes.py:187
+msgid "Forgot Password"
+msgstr ""
+
+#: app/routes.py:203
+msgid "Your password has been reset!"
+msgstr ""
+
+#: app/templates/404.html:5
+msgid "Not Found"
+msgstr ""
+
+#: app/templates/404.html:6 app/templates/500.html:7
+msgid "Back to Home"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid "Unexpected Error has occured"
+msgstr ""
+
+#: app/templates/500.html:6
+msgid "The webmaster has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/base.html:8
+msgid "Welcome to Microblog!"
+msgstr ""
+
+#: app/templates/base.html:37
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:39
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:40
+msgid "Sign Out"
+msgstr ""
+
+#: app/templates/forgotpassword.html:5
+msgid "Reset Password"
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: app/templates/login.html:13
+msgid "New User?"
+msgstr ""
+
+#: app/templates/login.html:13
+msgid "Click to Register!"
+msgstr ""
+
+#: app/templates/login.html:15
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/login.html:16
+msgid "Click to Reset It"
+msgstr ""
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr ""
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr ""
+
+#: app/templates/user.html:17
+msgid "Follow"
+msgstr ""
+
+#: app/templates/user.html:19
+msgid "Unfollow"
+msgstr ""
+
+#: app/templates/user.html:31
+msgid "Newer posts"
+msgstr ""
+
+#: app/templates/user.html:36
+msgid "Older posts"
+msgstr ""
+

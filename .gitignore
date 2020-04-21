@@ -5,3 +5,4 @@ box/
 .vscode/
 __pycache__
 logs/
+messages.pot

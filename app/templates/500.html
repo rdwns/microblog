@@ -2,8 +2,8 @@
 
 {% block app_content %}
 
-<h1>Unexpected Error has occured</h1>
-<p>The webmaster has been notified. Sorry for the inconvenience!</p>
-<a href="{{ url_for('index') }}">Back to Home</a>
+<h1>{{ _('Unexpected Error has occured') }}</h1>
+<p>{{ _('The webmaster has been notified. Sorry for the inconvenience!') }}</p>
+<a href="{{ url_for('index') }}">{{ _('Back to Home') }}</a>
 
 {% endblock app_content %}
