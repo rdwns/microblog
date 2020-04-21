@@ -3,5 +3,5 @@ config.py
 app.db
 box/
 .vscode/
-app/__pycache__/
+__pycache__
 logs/
